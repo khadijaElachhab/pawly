@@ -27,7 +27,10 @@ function Footer() {
               </div>
               <div className="d-flex align-items-center gap-2">
                 <FaEnvelope size={20} />
-                <span>DOUAA.BRAHIMI.ESTN24@ump.ac.ma</span>
+                <div className="d-flex flex-column">
+                  <span>DOUAA.BRAHIMI.ESTN24@ump.ac.ma</span>
+                  <span>KHADIJA.ELACHHAB.ESTN24@ump.ac.ma</span>
+                </div>
               </div>
               <div className="d-flex align-items-center gap-2">
                 <FaMapMarkerAlt size={20} />
@@ -40,7 +43,9 @@ function Footer() {
               © {new Date().getFullYear()} PAWLY. Tous droits réservés.
             </p>
             <p className="mb-0">
-              Développé par Douae Brahimi
+              Développé par : Douae Brahimi et
+              <br />
+              Khadija El Achhab
             </p>
           </div>
         </div>
